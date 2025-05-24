@@ -1,0 +1,155 @@
+:root {
+    --background-dark: #0F0F0F;
+    --background-orange: #FF680A;
+    --text-primary: #FFFFFF;
+    --text-secondary: #DBDBDB;
+    --card-bg: #1a1a1a;
+    --border-color: #2a2a2a;
+}
+
+body {
+    background: var(--background-dark);
+    color: var(--text-secondary);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1 span, .section-title h3 {
+    color: var(--background-orange);
+}
+a{
+    text-decoration: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+}
+.profile-card {
+    background: linear-gradient(145deg, #1a1a1a, #2a2a2a);
+    background-image: url(images/card-bg-2.png);
+    padding: 20px;
+    border-radius: 15px;
+    color: grey;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+    position: sticky;
+    top: 40px; /* Adjust this value as needed */
+}
+
+.profile-card img {
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.profile-card h1 {
+  color: red;
+}
+.list-item {
+    display: flex;
+    align-items: center;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    gap: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.list-item:hover {
+    background: #222;
+    transform: scale(1.03);
+}
+
+.list-item img {
+    width: 60px;
+    height: auto;
+    border-radius: 10px;
+    background: #2a2a2a;
+    padding: 8px;
+}
+.skill-card img{
+    filter: grayscale(1);
+}
+.skill-card, .contact-form {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    border-bottom: 2px solid var(--background-orange);
+    margin-bottom: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    background: #1a1a1a;
+    border: 1px solid #444;
+    color: var(--text-primary);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-form button {
+    background-color: var(--background-orange);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #e65a00;
+}
+.contact-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.social-links {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    padding-block: 20px;
+    border-radius: 10px;
+    gap: 0px;
+    border: 2px solid var(--border-color);
+}
+
+.social-links a {
+    color: var(--text-secondary);
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: var(--background-orange);
+}
+
+
+@media screen and (max-width: 768px) {
+    .profile-card {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .contact-card{
+        display: flex;
+        flex-direction: column;
+    }
+}
