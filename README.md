@@ -43,14 +43,14 @@ portfolio/
 ## 📸 Project Preview
 
 <p align="center">
-  <img src="images/preview.jpg" alt="Portfolio Screenshot" width="600"/>
+  <img src="https://njwebwork.github.io/portfolio/images/project-images/portfolio.png" alt="Portfolio Screenshot" width="600"/>
 </p>
 
 ---
 
 ## 📬 Contact
 
-- 📧 Email: yourname@example.com  
+- 📧 Email: nj.webwork@gmail.com  
 - 🌍 Website: [https://njwebwork.github.io/portfolio](https://njwebwork.github.io/portfolio)  
 - 💼 GitHub: [https://github.com/njwebwork](https://github.com/njwebwork)
 
