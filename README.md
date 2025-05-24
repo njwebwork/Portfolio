@@ -29,14 +29,14 @@
 ---
 
 ## 📁 Folder Structure
-
+<pre>
 portfolio/
 ├── css/
 ├── js/
 ├── images/
 ├── index.html
 └── README.md
-
+</pre>
 
 ---
 
