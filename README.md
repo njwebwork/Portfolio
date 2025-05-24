@@ -4,12 +4,6 @@
   A modern, responsive portfolio built with <strong>HTML</strong>, <strong>CSS</strong>, <strong>Bootstrap</strong>, and <strong>JavaScript</strong> to showcase my skills and projects.
 </p>
 
-<p align="center">
-  <a href="https://njwebwork.github.io/portfolio" target="_blank">
-    <img src="images/preview.jpg" alt="Portfolio Preview" width="80%" />
-  </a>
-</p>
-
 ---
 
 ## 🔗 Live Website
