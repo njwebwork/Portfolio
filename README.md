@@ -37,7 +37,7 @@ Portfolio/
 ## 📸 Project Preview
 
 <p align="center">
-  <img src="https://njwebwork.github.io/Portfolio/images/project-images/Portfolio.png" alt="Portfolio Screenshot" width="600"/>
+  <img src="https://njwebwork.github.io/Portfolio/images/project-images/portfolio.png" alt="Portfolio Screenshot" width="600"/>
 </p>
 
 ---
